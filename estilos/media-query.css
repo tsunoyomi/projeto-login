@@ -48,6 +48,11 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     body{
         background-image: linear-gradient(to top, #A3AB78, #CACACA);
+    }
+
+        section#login {
+            width: 950px;
+    }
 
         section#login > div#imagem{
             display: block;
@@ -56,22 +61,39 @@ Grandes telas: acima de 1200px
             background-size: cover;
             height: 200px;
     
-            float: left;
-            width: 30%;
-            height: 100%;
+            float: right;
+            width: 50%;
+            height: 500px;
         }
     }
-}  
+
 
 @media screen and (min-width: 1200px) {
     body{
         background-image: linear-gradient(to top, #502000,#818274);
-
-        section#login > div#imagem{
+    }
+        section#login > div#imagem {
             display: block;
             background: #A3AB78 url(../imagens/imagemnotebookprj.jpg) no-repeat;
             background-position: left;
             background-size: cover;
+            height: 100%;
+
+            float: left;
+            width: 50%;
+        }
+
+        section#login > div#formulario {
+            float: right;
+            width: 50%;
+        }
+
+        div#formulario > h1 {
+            font-size: 2em;
+        }
+
+        div#formulario > p {
+            font-size: 1.2em;  background-size: cover;
             height: 200px;
     
             float: left;
@@ -79,7 +101,7 @@ Grandes telas: acima de 1200px
             height: 100%;
         }
     }
-}
+
 
 
 
