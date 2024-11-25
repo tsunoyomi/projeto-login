@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*Typical Device Breackpoints
+Pequenas telas: até 600px
+Celular: até 768px
+Tablet: 768px até 992px
+desktops: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to top, #A3AB78, #9AEBA3);
+    }
+    
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        display: block;
+        background: #5f2c82 url(../imagens/imagemtabletprj.jpg) no-repeat;
+        background-position: left;
+        background-size: cover;
+        height: 200px;
+
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #A3AB78, #9AEBA3);
+    }
+
+    section#login {
+        width: 950px;
+    }   
+}
+    
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: linear-gradient(to top, #A3AB78, #CACACA);
+
+        section#login > div#imagem{
+            display: block;
+            background: #A3AB78 url(../imagens/imagemtvprj.jpg) no-repeat;
+            background-position: left;
+            background-size: cover;
+            height: 200px;
+    
+            float: left;
+            width: 30%;
+            height: 100%;
+        }
+    }
+}  
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: linear-gradient(to top, #502000,#818274);
+
+        section#login > div#imagem{
+            display: block;
+            background: #A3AB78 url(../imagens/imagemnotebookprj.jpg) no-repeat;
+            background-position: left;
+            background-size: cover;
+            height: 200px;
+    
+            float: left;
+            width: 30%;
+            height: 100%;
+        }
+    }
+}
+
+
+
